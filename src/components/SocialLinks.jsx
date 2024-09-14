@@ -1,5 +1,4 @@
 import React from 'react';
-import { BsFillPersonLinesFill } from 'react-icons/bs';
 import { FaGithub, FaLinkedin } from 'react-icons/fa';
 import { HiOutlineMail } from 'react-icons/hi';
 import { IoLogoYoutube } from 'react-icons/io';
@@ -38,17 +37,6 @@ const SocialLinks = () => {
       id: 4,
       child: (
         <>
-          Resume <BsFillPersonLinesFill size={30} />
-        </>
-      ),
-      href: '/My Resume - 01.docx',
-      style: 'rounded-br-md',
-      download: true,
-    },
-    {
-      id: 5,
-      child: (
-        <>
           Youtube <IoLogoYoutube size={30} />
         </>
       ),
@@ -60,17 +48,14 @@ const SocialLinks = () => {
   return (
     <div className='hidden lg:flex flex-col top-[35%] left-0 fixed'>
       <ul>
-        {links.map(({ id, child, href, style, download }) => (
+        {links.map(({ id, child, href, style }) => (
           <li
             key={id}
-            className={
-              `flex justify-between items-center w-40 h-12 px-4 ml-[-100px] hover:ml-[-10px] hover:rounded-md duration-300 bg-[#1e3a8a] hover:bg-[#2563eb] ${style}`
-            }
+            className={`flex justify-between items-center w-40 h-12 px-4 ml-[-100px] hover:ml-[-10px] hover:rounded-md duration-300 bg-[#1e3a8a] hover:bg-[#2563eb] ${style}`}
           >
             <a
               href={href}
               className='flex justify-between items-center w-full text-white'
-              download={download}
               target='_blank'
               rel='noreferrer'
             >
