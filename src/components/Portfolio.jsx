@@ -7,13 +7,13 @@ const Portfolio = () => {
     {
       id: 1,
       src: image1,
-      href: 'https://github.com/Rahul25S',
+      href: 'https://github.com/Rahul25S/Portfolio-Project---Clg.-.git',
       l1: "https://rahul25s.netlify.app",
     },
     {
       id: 2,
       src: image,
-      href: 'https://github.com/Rahul25S',
+      href: 'https://github.com/Rahul25S/Ani_Land_Tamil_Website_Project_Clg.git',
       l1: "https://ani-land-tamil-2115c.web.app",
     },
     

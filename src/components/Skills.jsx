@@ -8,6 +8,9 @@ import c from "../assets/cprogramimage.png";
 import python from "../assets/pythonimage.png";
 import java from "../assets/javaimage.png";
 import premierpro from '../assets/premierproimage.png'
+import mysql from '../assets/mysql.png'
+import firebase from '../assets/firebase.png'
+import github from '../assets/github.png'
 
 function Skills() {
   const techs = [
@@ -61,6 +64,24 @@ function Skills() {
     },
     {
       id: 9,
+      src: mysql,
+      title: "My Sql",
+      style: "shadow-orange-500",
+    },
+    {
+      id: 10,
+      src: github,
+      title: "Git Hub",
+      style: "shadow-white",
+    },
+    {
+      id: 11,
+      src: firebase,
+      title: "Firebase",
+      style: "shadow-yellow-500",
+    },
+    {
+      id: 12,
       src: premierpro,
       title: "Premier Pro",
       style: "shadow-violet-500",
@@ -77,7 +98,7 @@ function Skills() {
           <p className='text-4xl font-bold inline border-b-4 border-blue-600'>Key Skills</p>
           <p className="py-6">These are some technologies I've worked with</p>
         </div>
-        <div className="w-full grid grid-cols-2 sm:grid-cols-3 gap-8 text-center py-8 px-12 sm:px-0">
+        <div className="w-full grid grid-cols-2 sm:grid-cols-4 gap-8 text-center py-8 px-12 sm:px-0">
           {techs.map(({ id, src, title, style }) => (
             <div
               key={id}
