@@ -43,7 +43,7 @@ function Home() {
             </Link>
           </div>
         </div>
-        <div className="flex justify-center  md:justify-end w-full md:w-full">
+        <div className="flex justify-center   md:justify-end w-full md:w-full">
           <img src={profileImg} alt="my profile" className="w-48 sm:w-60 md:w-80" />
         </div>
       </div>
