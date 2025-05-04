@@ -23,7 +23,7 @@ const About = () => {
             <p className="mt-2">
               Electronics & Communication Engineering<br />
               K. Ramakrishnan College of Engineering<br />
-              CGPA – 6.65
+              CGPA – 6.7
             </p>
           </div>
 
