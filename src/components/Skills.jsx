@@ -1,12 +1,10 @@
 import React from 'react';
 import html from "../assets/htmlimage.png";
 import css from "../assets/cssimage.png";
-import javascript from "../assets/javascriptimage.png";
 import reactImage from "../assets/reactimage.png";
 import tailwind from "../assets/tailwindimage.png";
 import c from "../assets/cprogramimage.png";
 import python from "../assets/pythonimage.png";
-import java from "../assets/javaimage.png";
 import premierpro from '../assets/premierproimage.png'
 import mysql from '../assets/mysql.png'
 import firebase from '../assets/firebase.png'
@@ -19,12 +17,6 @@ function Skills() {
       src: python,
       title: "PYTHON",
       style: "shadow-yellow-500",
-    },
-    {
-      id: 2,
-      src: java,
-      title: "JAVA",
-      style: "shadow-red-500",
     },
     {
       id: 3,
@@ -43,12 +35,6 @@ function Skills() {
       src: css,
       title: "CSS",
       style: "shadow-blue-500",
-    },
-    {
-      id: 6,
-      src: javascript,
-      title: "JavaScript",
-      style: "shadow-yellow-500",
     },
     {
       id: 7,
