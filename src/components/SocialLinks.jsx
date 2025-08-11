@@ -40,7 +40,7 @@ const SocialLinks = () => {
           Youtube <IoLogoYoutube size={30} />
         </>
       ),
-      href: 'https://www.youtube.com/channel/UCo46WsiCRH7KA7b0lTd_gCQ',
+      href: 'https://www.youtube.com/channel/UCmVv0D-vd9bhYw-A4NAjaHg',
       style: 'rounded-tr-md',
     },
   ];
