@@ -4,6 +4,7 @@ import css from "../assets/cssimage.png";
 import reactImage from "../assets/reactimage.png";
 import tailwind from "../assets/tailwindimage.png";
 import c from "../assets/cprogramimage.png";
+import java from "../assets/javaimage.png"
 import python from "../assets/pythonimage.png";
 import premierpro from '../assets/premierproimage.png'
 import mysql from '../assets/mysql.png'
@@ -14,60 +15,62 @@ function Skills() {
   const techs = [
     {
       id: 1,
-      src: python,
-      title: "PYTHON",
-      style: "shadow-yellow-500",
+      src: java,
+      title: "JAVA",
+      style: "shadow-red-500",
     },
     {
-      id: 3,
-      src: c,
-      title: "C Program",
-      style: "shadow-blue-500",
-    },
-    {
-      id: 4,
-      src: html,
-      title: "HTML",
-      style: "shadow-orange-500",
-    },
-    {
-      id: 5,
-      src: css,
-      title: "CSS",
-      style: "shadow-blue-500",
-    },
-    {
-      id: 7,
+      id: 2,
       src: reactImage,
       title: "React",
       style: "shadow-blue-500",
     },
     {
-      id: 8,
+      id: 3,
+      src: html,
+      title: "HTML",
+      style: "shadow-orange-500",
+    },
+    {
+      id: 4,
+      src: css,
+      title: "CSS",
+      style: "shadow-blue-500",
+    },
+    
+    {
+      id: 5,
       src: tailwind,
       title: "Tailwind",
       style: "shadow-sky-400",
     },
     {
-      id: 9,
+      id: 6,
       src: mysql,
       title: "My Sql",
       style: "shadow-orange-500",
     },
+    
     {
-      id: 10,
+      id: 7,
       src: github,
       title: "Git Hub",
       style: "shadow-white",
     },
     {
-      id: 11,
-      src: firebase,
-      title: "Firebase",
+      id: 8,
+      src: python,
+      title: "Python",
       style: "shadow-yellow-500",
     },
     {
-      id: 12,
+      id: 9,
+      src: c,
+      title: "C Program",
+      style: "shadow-blue-500",
+    },
+    {
+      id: 10,
       src: premierpro,
       title: "Premier Pro",
       style: "shadow-violet-500",
