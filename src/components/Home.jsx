@@ -27,7 +27,7 @@ function Home() {
             </span>
           </h2>
           <p className="text-gray-500 py-4 mx-auto  text-sm sm:text-lg md:text-xl">
-            Enthusiastic Electronics and Communication Engineering student. Seeking opportunities to make a meaningful impact in the realm of technology.
+           Aspiring Java Full Stack Developer, eager to build impactful solutions and grow in the world of technology.
           </p>
           <div>
             <Link
@@ -36,7 +36,7 @@ function Home() {
               duration={500}
               className="group text-white w-fit px-6 py-3 my-2 flex items-center rounded-md bg-blue-600 cursor-pointer hover:bg-blue-700"
             >
-              Portfolio
+              My Work
               <span className="group-hover:rotate-90 duration-300">
                 <MdOutlineKeyboardArrowRight size={25} className="ml-1" />
               </span>

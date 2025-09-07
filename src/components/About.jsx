@@ -13,7 +13,7 @@ const About = () => {
         </div>
 
         <p className="text-base sm:text-lg mb-8">
-          I am an enthusiastic Electronics and Communication Engineering student eager to gain practical experience and enhance my data processing and programming skills. With a passion for innovation, I am excited to collaborate with seasoned professionals in a dynamic industry and seek opportunities to make a meaningful impact in the realm of technology.
+          Aspiring Java Full Stack Developer with hands-on experience in Java, Spring Boot, Python, SQL, React.js, and Tailwind CSS. Skilled in building responsive web applications and problem-solving through coding challenges. Eager to contribute to scalable projects, enhance backend expertise, and grow as part of a dynamic development team.
         </p>
 
         <div className="flex flex-col md:grid md:grid-cols-3 gap-8 text-center">
@@ -23,7 +23,7 @@ const About = () => {
             <p className="mt-2">
               Electronics & Communication Engineering<br />
               K. Ramakrishnan College of Engineering<br />
-              CGPA – 6.7
+              CGPA – 6.8
             </p>
           </div>
 

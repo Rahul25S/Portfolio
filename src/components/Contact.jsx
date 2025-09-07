@@ -14,14 +14,14 @@ const Contact = () => {
           <form action="https://getform.io/f/bgdyzzda" method="POST" className='flex flex-col w-full md:w-1/2'>
             <input type='text'
               name="name"
-              placeholder='Enter your name'
+              placeholder="what's your good name"
               className='p-2 bg-transparent border-2 rounded-md text-white focus:outline-none' />
             <input type='email' // Changed input type to 'email'
               name="email"
-              placeholder='Enter your email'
+              placeholder='Looking for your email'
               className='my-4 p-2 bg-transparent border-2 rounded-md text-white focus:outline-none' />
             <textarea name="message"
-              placeholder='Enter your message'
+              placeholder='Wanna say something...'
               rows="10" className='p-2 bg-transparent border-2 rounded-md text-white focus:outline-none'></textarea>
             <button className='text-white bg-blue-600 px-6 py-3 my-8 mx-auto flex items-center rounded-md hover:scale-110 hover:bg-blue-700 duration-300'>Let's talk</button>
           </form>
