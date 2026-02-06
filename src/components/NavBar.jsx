@@ -1,7 +1,7 @@
-import React, { useState } from 'react';
-import { FaHome, FaUser, FaEnvelope, FaLaptopCode } from 'react-icons/fa';
-import { IoMdPhotos } from 'react-icons/io';
-import { Link } from 'react-scroll';
+import React, { useState } from "react";
+import { FaHome, FaUser, FaEnvelope, FaLaptopCode } from "react-icons/fa";
+import { IoMdPhotos } from "react-icons/io";
+import { Link } from "react-scroll";
 
 function NavBar() {
   const [nav, setNav] = useState(false);
@@ -21,7 +21,29 @@ function NavBar() {
             Home
           </span>
         </Link>
-
+        <Link
+          to="portfolio"
+          smooth
+          duration={500}
+          className="group flex items-center text-white space-x-2 hover:text-blue-500 cursor-pointer"
+        >
+          <IoMdPhotos className="transition duration-300 group-hover:translate-x-1" />
+          <span className="opacity-0 group-hover:opacity-100 group-hover:translate-x-1 transition duration-300">
+            Project
+          </span>
+        </Link>
+        <Link
+          to="skills"
+          smooth
+          duration={500}
+          offset={-80}
+          className="group flex items-center text-white space-x-2 hover:text-blue-500 cursor-pointer"
+        >
+          <FaLaptopCode className="transition duration-300 group-hover:translate-x-1" />
+          <span className="opacity-0 group-hover:opacity-100 group-hover:translate-x-1 transition duration-300">
+            Skills
+          </span>
+        </Link>
         <Link
           to="about"
           smooth
@@ -31,30 +53,6 @@ function NavBar() {
           <FaUser className="transition duration-300 group-hover:translate-x-1" />
           <span className="opacity-0 group-hover:opacity-100 group-hover:translate-x-1 transition duration-300">
             About
-          </span>
-        </Link>
-
-        <Link
-          to="skills"
-          smooth
-          duration={500}
-          className="group flex items-center text-white space-x-2 hover:text-blue-500 cursor-pointer"
-        >
-          <FaLaptopCode className="transition duration-300 group-hover:translate-x-1" />
-          <span className="opacity-0 group-hover:opacity-100 group-hover:translate-x-1 transition duration-300">
-            Skills
-          </span>
-        </Link>
-
-        <Link
-          to="portfolio"
-          smooth
-          duration={500}
-          className="group flex items-center text-white space-x-2 hover:text-blue-500 cursor-pointer"
-        >
-          <IoMdPhotos className="transition duration-300 group-hover:translate-x-1" />
-          <span className="opacity-0 group-hover:opacity-100 group-hover:translate-x-1 transition duration-300">
-            Portfolio
           </span>
         </Link>
 
@@ -80,7 +78,7 @@ function NavBar() {
       {/* Mobile Menu */}
       <div
         className={`fixed top-0 left-0 w-full h-full bg-black bg-opacity-95 transform ${
-          nav ? 'translate-x-0' : '-translate-x-full'
+          nav ? "translate-x-0" : "-translate-x-full"
         } transition-transform duration-300 ease-in-out md:hidden`}
       >
         <div className="flex flex-col items-center justify-center min-h-screen space-y-4 text-white">

@@ -1,53 +1,81 @@
-import React from 'react';
-import image from "../assets/image.jpg";
-import image1 from "../assets/image1.png"
+import React from "react";
+import image1 from "../assets/one.png";
+import image from "../assets/two.png";
 
 const Portfolio = () => {
   const portfolios = [
     {
       id: 1,
-      src: image1,
-      href: 'https://github.com/Rahul25S/Portfolio-Project---Clg.-.git',
-      l1: "https://rahul25s.netlify.app",
+      title: "Ani Hub Tamil",
+      description:
+        "An anime review and listing website built using React with a clean and responsive UI.",
+      src: image,
+      demo: "https://ani-hub-tamil.vercel.app/",
+      code: "https://github.com/Rahul25S/Ani_Hub_Tamil_Website_Project_Clg",
     },
     {
       id: 2,
-      src: image,
-      href: 'https://github.com/Rahul25S/Ani_Hub_Tamil_Website_Project_Clg',
-      l1: "https://ani-hub-tamil.vercel.app/",
+      title: "Personal Portfolio Website",
+      description:
+        "A responsive personal portfolio built using React and Tailwind CSS to showcase my skills and projects.",
+      src: image1,
+      demo: "https://rahul25s.netlify.app",
+      code: "https://github.com/Rahul25S/Portfolio-Project---Clg.-.git",
     },
-    
     
   ];
 
   return (
     <div
       name="portfolio"
-      className="bg-gradient-to-b from-gray-800 to-black w-full text-white md:h-screen"
+      className="bg-gradient-to-b from-gray-800 to-black w-full text-white py-28"
     >
-      <div className="max-w-screen-lg p-4 mx-auto flex flex-col justify-center w-full h-full">
-        <div className="pb-8">
-          <p className="text-4xl font-bold inline border-b-4 border-blue-600">Portfolio</p>
-          <p className="py-6">Check out some of my work right here</p>
+      <div className="max-w-screen-lg mx-auto px-4">
+        {/* Section Heading */}
+        <div className="pb-12">
+          <h2 className="text-4xl font-bold inline border-b-4 border-blue-600">
+            Projects
+          </h2>
+          <p className="text-gray-400 mt-4">
+            A few projects I built while learning web development
+          </p>
         </div>
 
-        <div className="grid sm:grid-cols-1 md:grid-cols-2 gap-8 px-12 sm:px-0">
-          {portfolios.map(({ id, src, l1, href }) => (
-            <div key={id} className="shadow-md shadow-gray-600 rounded-lg">
-              <img src={src} alt="" className="rounded-md duration-200 hover:scale-105" />
-              <div className="flex items-center justify-center">
-                <button
-                  onClick={() => window.open(l1, '_blank')}
-                  className="w-1/2 px-6 py-3 m-4 duration-200 hover:scale-125"
-                >
-                  Demo
-                </button>
-                <button
-                  onClick={() => window.open(href, '_blank')}
-                  className="w-1/2 px-6 py-3 m-4 duration-200 hover:scale-125"
-                >
-                  Code
-                </button>
+        {/* Projects Grid */}
+        <div className="grid sm:grid-cols-1 md:grid-cols-2 gap-8">
+          {portfolios.map((project) => (
+            <div
+              key={project.id}
+              className="bg-gray-900 rounded-lg shadow-lg overflow-hidden hover:shadow-blue-600/30 transition duration-300"
+            >
+              <img
+                src={project.src}
+                alt={project.title}
+                className="w-full h-64 object-cover hover:scale-105 transition duration-300"
+              />
+
+              <div className="p-4">
+                <h3 className="text-xl font-semibold">
+                  {project.title}
+                </h3>
+                <p className="text-gray-400 text-sm mt-2">
+                  {project.description}
+                </p>
+
+                <div className="flex gap-4 mt-4">
+                  <button
+                    onClick={() => window.open(project.demo, "_blank")}
+                    className="px-4 py-2 bg-blue-600 rounded hover:bg-blue-700 transition"
+                  >
+                    Live Demo
+                  </button>
+                  <button
+                    onClick={() => window.open(project.code, "_blank")}
+                    className="px-4 py-2 border border-gray-500 rounded hover:bg-gray-700 transition"
+                  >
+                    Source Code
+                  </button>
+                </div>
               </div>
             </div>
           ))}

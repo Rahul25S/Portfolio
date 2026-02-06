@@ -18,7 +18,7 @@ function Home() {
           <h2 className="text-5xl sm:text-5xl md:text-7xl font-bold text-white">
             <span className="text-blue-500">
               <ReactTyped
-                strings={['DEVELOPER', 'YOUTUBER' ]}
+                strings={['JAVA DEVELOPER', 'FULL STACK DEVELOPER' ]}
                 typeSpeed={40}
                 backSpeed={50}
                 backDelay={2000}
@@ -27,7 +27,8 @@ function Home() {
             </span>
           </h2>
           <p className="text-gray-500 py-4 mx-auto  text-sm sm:text-lg md:text-xl">
-           Aspiring Java Full Stack Developer, eager to build impactful solutions and grow in the world of technology.
+           Aspiring Java Full Stack Developer, passionate about building impactful web applications and continuously learning new technologies.
+
           </p>
           <div>
             <Link
@@ -43,7 +44,7 @@ function Home() {
             </Link>
           </div>
         </div>
-        <div className="flex justify-center   md:justify-end w-full md:w-full">
+        <div className="flex justify-center md:justify-end w-full md:w-full">
           <img src={profileImg} alt="my profile" className="w-48 sm:w-60 md:w-80" />
         </div>
       </div>

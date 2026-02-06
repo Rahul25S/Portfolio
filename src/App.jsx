@@ -14,9 +14,9 @@ const App = () => {
       <div className="flex flex-col">
         <NavBar />
         <Home />
-        <About />
-        <Skills />
         <Portfolio />
+        <Skills />
+        <About />
         <Contact />
         <SocialLinks />
       </div>

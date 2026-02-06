@@ -1,15 +1,14 @@
-import React from 'react';
+import React from "react";
 import html from "../assets/htmlimage.png";
 import css from "../assets/cssimage.png";
 import reactImage from "../assets/reactimage.png";
 import tailwind from "../assets/tailwindimage.png";
-import c from "../assets/cprogramimage.png";
-import java from "../assets/javaimage.png"
+import js from "../assets/javascrip.png";
+import java from "../assets/javaimage.png";
 import python from "../assets/pythonimage.png";
-import premierpro from '../assets/premierproimage.png'
-import mysql from '../assets/mysql.png'
-import firebase from '../assets/firebase.png'
-import github from '../assets/github.png'
+import mysql from "../assets/mysql.png";
+import github from "../assets/github.png";
+import spring from "../assets/sb.png";
 
 function Skills() {
   const techs = [
@@ -21,60 +20,58 @@ function Skills() {
     },
     {
       id: 2,
-      src: reactImage,
-      title: "React",
-      style: "shadow-blue-500",
-    },
-    {
-      id: 3,
       src: html,
       title: "HTML",
       style: "shadow-orange-500",
     },
     {
-      id: 4,
+      id: 3,
       src: css,
       title: "CSS",
       style: "shadow-blue-500",
     },
-    
     {
-      id: 5,
+      id: 4,
       src: tailwind,
-      title: "Tailwind",
+      title: "Tailwind CSS",
       style: "shadow-sky-400",
     },
     {
+      id: 5,
+      src: js,
+      title: "JavaScript",
+      style: "shadow-yellow-500",
+    },
+    {
       id: 6,
+      src: reactImage,
+      title: "React",
+      style: "shadow-blue-500",
+    },
+    {
+      id: 7,
       src: mysql,
       title: "My Sql",
       style: "shadow-orange-500",
     },
-    
     {
-      id: 7,
+      id: 8,
+      src: spring,
+      title: "Spring Boot",
+      style: "shadow-green-400",
+    },
+    {
+      id: 9,
       src: github,
       title: "Git Hub",
       style: "shadow-white",
     },
     {
-      id: 8,
+      id: 10,
       src: python,
       title: "Python",
       style: "shadow-yellow-500",
-    },
-    {
-      id: 9,
-      src: c,
-      title: "C Program",
-      style: "shadow-blue-500",
-    },
-    {
-      id: 10,
-      src: premierpro,
-      title: "Premier Pro",
-      style: "shadow-violet-500",
-    },
+    }
   ];
 
   return (
@@ -84,14 +81,16 @@ function Skills() {
     >
       <div className="max-w-screen-lg mx-auto p-4 flex flex-col justify-center w-full h-full text-white">
         <div className="text-4xl font-bold border-b-4 border-gray-500 p-2 inline">
-          <p className='text-4xl font-bold inline border-b-4 border-blue-600'>Key Skills</p>
+          <p className="text-4xl font-bold inline border-b-4 border-blue-600">
+            Key Skills
+          </p>
           <p className="py-6">These are some technologies I've worked with</p>
         </div>
         <div className="w-full grid grid-cols-2 sm:grid-cols-4 gap-8 text-center py-8 px-12 sm:px-0">
           {techs.map(({ id, src, title, style }) => (
             <div
               key={id}
-              className={`shadow-md hover:scale-105 duration-500 py-2 rounded-lg ${style}`}
+              className={`shadow-md hover:scale-110 duration-300 py-2 rounded-lg ${style}`}
             >
               <img src={src} alt="" className="w-20 mx-auto" />
               <p className="mt-4">{title}</p>

@@ -1,7 +1,6 @@
 import React from 'react';
 import { FaGithub, FaLinkedin } from 'react-icons/fa';
 import { HiOutlineMail } from 'react-icons/hi';
-import { IoLogoYoutube } from 'react-icons/io';
 
 const SocialLinks = () => {
   const links = [
@@ -33,16 +32,7 @@ const SocialLinks = () => {
       ),
       href: 'mailto:rahul11022004@gmail.com',
     },
-    {
-      id: 4,
-      child: (
-        <>
-          Youtube <IoLogoYoutube size={30} />
-        </>
-      ),
-      href: 'https://www.youtube.com/channel/UCmVv0D-vd9bhYw-A4NAjaHg',
-      style: 'rounded-tr-md',
-    },
+  
   ];
 
   return (

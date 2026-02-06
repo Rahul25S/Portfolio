@@ -13,7 +13,8 @@ const About = () => {
         </div>
 
         <p className="text-base sm:text-lg mb-8">
-          Aspiring Java Full Stack Developer with hands-on experience in Java, Spring Boot, Python, SQL, React.js, and Tailwind CSS. Skilled in building responsive web applications and problem-solving through coding challenges. Eager to contribute to scalable projects, enhance backend expertise, and grow as part of a dynamic development team.
+          Aspiring Java Full Stack Developer with hands-on experience in Java (Spring Boot), HTML, CSS (Tailwind CSS), JavaScript (React.js), SQL. Experienced in building responsive web applications and solving problems through coding challenges. Looking to contribute to scalable projects and grow within a collaborative development team.
+
         </p>
 
         <div className="flex flex-col md:grid md:grid-cols-3 gap-8 text-center">
