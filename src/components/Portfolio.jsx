@@ -11,7 +11,7 @@ const Portfolio = () => {
         "An anime review and listing website built using React with a clean and responsive UI.",
       src: image,
       demo: "https://ani-hub-tamil.vercel.app/",
-      code: "https://github.com/Rahul25S/Ani_Hub_Tamil_Website_Project_Clg",
+      code: "https://github.com/Rahul25S/AniHubTamil_Frontend-React.js-",
     },
     {
       id: 2,
