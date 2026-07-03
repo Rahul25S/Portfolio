@@ -1,7 +1,9 @@
 import React from "react";
 import image1 from "../assets/one.png";
 import image from "../assets/two.png";
-import image2 from "../assets/three.png"
+import image2 from "../assets/three.png";
+import image3 from "../assets/four.png";
+import image4 from "../assets/five.png";
 
 const Portfolio = () => {
   const portfolios = [
@@ -15,15 +17,6 @@ const Portfolio = () => {
       code: "https://github.com/Rahul25S/AniHubTamil_Frontend-React.js-",
     },
     {
-      id: 2,
-      title: "Personal Portfolio Website",
-      description:
-        "A responsive personal portfolio built using React and Tailwind CSS to showcase my skills and projects.",
-      src: image1,
-      demo: "https://rahul25s.netlify.app",
-      code: "https://github.com/Rahul25S/Portfolio-Project---Clg.-.git",
-    },
-    {
       id: 3,
       title: "Digital Marketing Website",
       description:
@@ -32,7 +25,34 @@ const Portfolio = () => {
       demo: "https://younique-vision-digitalmarketing.netlify.app/",
       code: "https://github.com/Rahul25S/Younique_Vision_Digital_Marketing",
     },
-    
+    {
+      id: 2,
+      title: "Personal Portfolio Website",
+      description:
+        "A responsive personal portfolio built using React and Tailwind CSS to showcase my skills and projects.",
+      src: image1,
+      demo: "https://rahul25s.netlify.app",
+      code: "https://github.com/Rahul25S/Portfolio-Project---Clg.-.git",
+    },
+
+    {
+      id: 4,
+      title: "Java Banking Application",
+      description:
+        "A console-based banking application built using Core Java to perform secure account management and banking operations through a menu-driven interface.",
+      src: image3,
+      demo: "https:/github.com/Rahul25S/Java-Banking-System",
+      code: "https:/github.com/Rahul25S/Java-Banking-System",
+    },
+    {
+      id: 5,
+      title: "Python Banking Application",
+      description:
+        "A console-based banking application built using Python to perform secure account management and banking operations through a menu-driven interface.",
+      src: image4,
+      demo: "https://github.com/Rahul25S/Python-Banking-System",
+      code: "https://github.com/Rahul25S/Python-Banking-System",
+    },
   ];
 
   return (
@@ -65,9 +85,7 @@ const Portfolio = () => {
               />
 
               <div className="p-4">
-                <h3 className="text-xl font-semibold">
-                  {project.title}
-                </h3>
+                <h3 className="text-xl font-semibold">{project.title}</h3>
                 <p className="text-gray-400 text-sm mt-2">
                   {project.description}
                 </p>
