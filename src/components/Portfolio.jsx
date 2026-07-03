@@ -1,6 +1,7 @@
 import React from "react";
 import image1 from "../assets/one.png";
 import image from "../assets/two.png";
+import image2 from "../assets/three.png"
 
 const Portfolio = () => {
   const portfolios = [
@@ -21,6 +22,15 @@ const Portfolio = () => {
       src: image1,
       demo: "https://rahul25s.netlify.app",
       code: "https://github.com/Rahul25S/Portfolio-Project---Clg.-.git",
+    },
+    {
+      id: 3,
+      title: "Digital Marketing Website",
+      description:
+        "A responsive digital marketing website built using React.js and Tailwind CSS to showcase Younique Vision's services and help businesses establish a strong online presence..",
+      src: image2,
+      demo: "https://younique-vision-digitalmarketing.netlify.app/",
+      code: "https://github.com/Rahul25S/Younique_Vision_Digital_Marketing",
     },
     
   ];

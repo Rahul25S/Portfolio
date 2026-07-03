@@ -13,7 +13,7 @@ const About = () => {
         </div>
 
         <p className="text-base sm:text-lg mb-8">
-          Aspiring Java Full Stack Developer with hands-on experience in Java (Spring Boot), HTML, CSS (Tailwind CSS), JavaScript (React.js), SQL. Experienced in building responsive web applications and solving problems through coding challenges. Looking to contribute to scalable projects and grow within a collaborative development team.
+          Java Full Stack Developer and 2025 Engineering graduate with a strong foundation in software development and hands-on experience in building web applications using Java, Spring Boot, React.js, MySQL. Skilled in developing responsive user interfaces, designing RESTful APIs, and managing databases while applying Object-Oriented Programming principles and software development best practices. Passionate about creating efficient software solutions, learning emerging technologies, and contributing to innovative development teams in a dynamic work environment.
 
         </p>
 
